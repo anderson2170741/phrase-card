@@ -19,22 +19,18 @@ function App() {
 
   return (
     <div className="App" style={{ color: colors[randomColorIndex] }}>
-      <div>
-        <div className='Card'>
-          <div className='p-quoe-container'>
-            <div className='phrase'>
-              <i class="fas fa-quote-left"></i>
-              <p>{phrase[index].quote}</p>
-            </div>
-          </div>
-          <p className='author'>{phrase[index].author}</p>
-          <div className='fa-soli'>
-            <i onClick={next} class="fa-solid fa-circle-chevron-right"></i>
+
+      <div className='Card'>
+        <div className='p-quoe-container'>
+          <div className='phrase'>
+            <i class="fas fa-quote-left"></i>
+            <p>{phrase[index].quote}</p>
           </div>
         </div>
-        <footer>
-          <p>© Anderson Durán</p>
-        </footer>
+        <p className='author'>{phrase[index].author}</p>
+        <div className='fa-soli'>
+          <i onClick={next} class="fa-solid fa-circle-chevron-right"></i>
+        </div>
       </div>
     </div>
   )
