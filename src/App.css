@@ -63,7 +63,7 @@ footer {
   color: white;
   font-size: 10px;
   position: absolute;
-  bottom: 1vh;
+  bottom: 0;
   left: 50%;
   transform: translate(-50%, -50%);
 }
