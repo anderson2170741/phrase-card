@@ -21,10 +21,8 @@ function App() {
     <div className="App" style={{ color: colors[randomColorIndex] }}>
       <div className='Card'>
         <div className='p-quoe-container'>
-          <div className='quote'>
-            <i class="fas fa-quote-left"></i>
-          </div>
           <div className='phrase'>
+            <i class="fas fa-quote-left"></i>
             <p>{phrase[index].quote}</p>
           </div>
         </div>
